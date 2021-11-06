@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery mask</title>
+    <link href="plugin-jquery--main/jquery plugin/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="plugin-jquery--main/jquery plugin/js/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="plugin-jquery--main/jquery plugin/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="plugin-jquery--main/jquery plugin/js/jquery.mask.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+    $("#cep").mask("00000-000")
+        })
+    </script>
+    
+</head>
+<body>
+    <h1>jQuery Mask plugin</h1>
+    <h2>Insira seu CEP e a máscara será aplicada:</h2>
+    <label>CEP</label>
+    <input type="text" name="cep" id="cep" />
+    <br />
+    
+</body>
+</html>
